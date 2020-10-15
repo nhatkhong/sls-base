@@ -30,5 +30,5 @@ async function getAuction(event, context) {
         };
 }
 
-export const handler = commonMiddleWare(getAuctions);
+export const handler = commonMiddleWare(getAuction);
 
